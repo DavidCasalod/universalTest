@@ -166,7 +166,7 @@ Below are the endpoints exposed. Some are purely read-only, some are mocks, some
    - If `earned` requires two params (address, uint256), we handle both.
    - Error if gauge is missing or if `tokenId` is invalid.
 
-- ** uSUI/WETH:  GET /liquidity/quoteAddLiquidity?tokenA=...&tokenB=...&amountA=...&amountB=...**
+- **uSUI/WETH:  GET /liquidity/quoteAddLiquidity?tokenA=...&tokenB=...&amountA=...&amountB=...**
 
    Example:
    ```bash
