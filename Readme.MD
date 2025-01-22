@@ -90,7 +90,7 @@ Each microservice can be deployed and scaled independently, updated without affe
 
 1. **Clone** the repo  
    ```bash
-   git clone <your_repo_url> universal-exchange-backend
+   git clone https://github.com/DavidCasalod/universalTest.git universal-exchange-backend
    cd universal-exchange-backend
    ```
 
