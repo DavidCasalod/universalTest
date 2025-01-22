@@ -128,6 +128,8 @@ Below are the endpoints exposed. Some are purely read-only, some are mocks, some
    - Returns the `owner()` from an on-chain Universal contract (e.g. ExclusiveDutchOrderReactor).
    - It reads an actual chain call but only calls a view function.
 
+
+### Aerodrome Endpoints
 - **GET /liquidity/gaugeDetails?gauge=0x...**
 
    Example:
@@ -163,8 +165,6 @@ Below are the endpoints exposed. Some are purely read-only, some are mocks, some
    - Calls `earned(user, tokenId)` on a gauge.
    - If `earned` requires two params (address, uint256), we handle both.
    - Error if gauge is missing or if `tokenId` is invalid.
-
-### Aerodrome Endpoints
 
 - ** uSUI/WETH:  GET /liquidity/quoteAddLiquidity?tokenA=...&tokenB=...&amountA=...&amountB=...**
 
