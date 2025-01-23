@@ -12,9 +12,6 @@ This project is a **TypeScript** backend that demonstrates **CEX-like** and **DE
    - [Universal On-Chain (owner, gauge, etc.)](#universal-on-chain-endpoints)
    - [Aerodrome (Liquidity, Gauges)](#aerodrome-endpoints)
    - [CEX (Binance Ticker via CCXT)](#cex-endpoints)
-5. [Mock Functionality](#mock-functionality)
-6. [Possible Extensions](#possible-extensions)
-7. [License](#license)
 
 ---
 
